@@ -11,7 +11,7 @@ services:
       - DB_HOST=db
       - DB_USER=root
       - DB_PASSWORD=rootpassword
-      - DB_NAME=mydatabase
+      - DB_NAME=belajar-nodejs
     depends_on:
       - db
     volumes:

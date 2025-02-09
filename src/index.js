@@ -9,8 +9,8 @@ app.listen(4000, () => {
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
-app.get('/udin', (req, res) => {
-    res.send('Hello udon');
+app.get('/kereta-user', (req, res) => {
+    res.send('testing');
 });
 
 
